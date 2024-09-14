@@ -8,6 +8,7 @@ This project analyzes 12 months of electronics store sales data using Python, Pa
 
 ## Key Steps
 1. **Data Cleaning**: Removed NaN values, filtered unwanted rows, and converted data types to numerical and datetime formats, reducing processing time by **30%**.
+
 2. **Exploratory Data Analysis (EDA)**:
     - Identified the **best sales month** ($1.2 million revenue).
     - Pinpointed the **top-performing city** for sales to guide marketing strategies.
@@ -15,13 +16,26 @@ This project analyzes 12 months of electronics store sales data using Python, Pa
     - Identified frequently sold products together, aiding cross-selling strategies.
     - Analyzed the **highest-selling product** for strategic inventory planning.
 
-## Techniques Used
-- Data concatenation, column parsing, and grouping for aggregate analysis.
+3. **Techniques Used**:
+- Concatenated multiple CSV files into a single DataFrame using `pd.concat`.
+- Added new columns and parsed strings using `.str`.
+- Employed `.apply()` for custom data manipulation.
+- Utilized `groupby` for aggregate analysis.
 - Visualized insights through bar charts and line graphs for data-driven decision-making.
 
 ## Insights
-- Enhanced understanding of peak sales periods and customer purchasing behavior.
-- Improved marketing, inventory, and cross-selling strategies.
+- Enabled data-driven marketing strategies by peak sales periods and customer purchasing behavior.
+- Improved inventory planning by pinpointing top-selling products.
+- Enhanced cross-selling through the analysis of frequently bought-together items.
 
 ## How to Use
-Clone the repository and use the provided Jupyter Notebook to run the analysis on the dataset.
+
+1. **Setup**:
+   - Fork and clone this repository locally (Instructions: [GitHub Help](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)).
+   - Alternatively, download the ZIP file and extract it to your desired location.
+
+2. **Installation**:
+   - Install Jupyter Notebook: [Jupyter Installation](https://jupyter.readthedocs.io/en/latest/install.html)
+   - Install Pandas library: [Pandas Installation](https://pandas.pydata.org/pandas-docs/stable/install.html)
+
+3. Run the Jupyter Notebook to explore the data and analysis.
